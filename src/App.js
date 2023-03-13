@@ -1,4 +1,6 @@
-import Header from './components/Header'
+import Header from './components/Header';
+import Task from './components/Tasks';
+
 
 function App() {
 
@@ -6,7 +8,7 @@ function App() {
     <div className="container">
       
       <Header />
-      
+      <Task />
     </div>
   );
 }
